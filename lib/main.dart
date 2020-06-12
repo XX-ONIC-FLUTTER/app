@@ -27,7 +27,7 @@ class RandomWordsState extends State<RandomWords> {
   //  存储用户喜欢的单词
   final _saved = new Set<WordPair>();
 
-  final _biggerFont = const TextStyle(fontSize: 18.0);
+  final _biggerFont = const TextStyle(fontSize: 16.0);
 
   Widget _buildSuggestions() {
     return new ListView.builder(
